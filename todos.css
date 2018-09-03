@@ -1,0 +1,17 @@
+li {
+    border: 2px solid purple;
+}
+#doggie{
+    border:2px dashed red;
+    background: rgb(173, 12, 133)
+}
+.completed {
+    text-decoration: line-through;
+}
+
+/* Element selector =  li{   }selects ALL stuff
+    ID selector = # cannot be repeated with same name
+    Class selector = . can be repeated with same name
+    
+    */
+    
