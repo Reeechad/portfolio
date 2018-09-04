@@ -1,1 +1,206 @@
-<meta http-equiv="refresh" content="0; url=http://reeechad.github.io/portfolio/index.html" />
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @Reeechad Sign out
+0
+0 0 Reeechad/portfolio
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+portfolio/Portfolio/index.html
+7609fd4  22 minutes ago
+@Reeechad Reeechad Update index.html
+     
+177 lines (171 sloc)  7.44 KB
+<!DOCTYPE html>
+<html lang="en" ng-app="PortfolioApp">
+<head>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <title>Richard Lee</title>
+</head>
+<body>
+  <!-- Navigation -->
+  <div id="home" class="area"></div><nav class="main-menu">
+            <ul>
+                <li>
+                    <a href="#home">
+                        <i class="fa fa-home fa-2x menuIcon"></i>
+                        <span class="nav-text">
+                            Home
+                        </span>
+                    </a>
+                  
+                </li>
+                <li>
+                    <a href="#about">
+                        <i class="fa fa-font fa-2x menuIcon"></i>
+                        <span class="nav-text">
+                            About Me
+                        </span>
+                    </a>
+                </li>
+                <li class="has-subnav">
+                    <a href="#details">
+                        <i class="fa fa-laptop fa-2x menuIcon"></i>
+                        <span class="nav-text">
+                            Projects
+                        </span>
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="#contact">
+                       <i class="fa fa-info fa-2x menuIcon"></i>
+                        <span class="nav-text">
+                            Resume &amp; Contact
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+  <!-- Header -->
+    <header>
+      <div class="row">
+        <div class="col-xs-12" id='clear'>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <span id="title"><h1 id="textOne">Richard Lee</h1>
+          <h3 id="subTextOne">Front-End Web Developer</h3></span>
+        </div>
+      </div>
+    </header>
+  <!-- About -->
+    <div class="container text-center headerPadding" id="about">
+      <h2>About Me</h2>
+      <hr>
+      <div class="row">
+        <div class="col-xs-8 col-xs-offset-2">
+          <p id="info">
+          I'm a front-end web developer that is experienced with HTML, CSS, JavaScript, jQuery, and Bootstrap. Whenever I'm not coding, I'm watching or playing sports/esports, camping/hiking, and messing around with my guitar.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-8 col-xs-offset-2">
+          <img class="img-circle" id="me" src="./img/me.jpg" alt="Picture Of Me">
+        </div>
+      </div>
+  </div>
+  <!-- Project Specifics -->
+  <div class="container headerPadding" id="projectList">
+    <div class="row">
+      <div class="col-xs-12" id="details">
+        <h2>Projects</h2>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-2">
+        <h3><a href="https://codepen.io/Reeechad/full/eLgYrO/" class="noBlue">RGB Color Game</a></h3>
+        <hr>
+        <a href="https://codepen.io/Reeechad/full/eLgYrO/"><img src="https://ham-d.github.io/images/colorgame.png" alt="Color Game Image" id="imgsize" class="img-responsive projects"></a>
+        <hr>
+          <p class="projectDetails">
+          Play a game that tests your knowledge of RGB colors. There are two different levels players can play. Utilized HTML, CSS, Javascript, and jQuery.  <a href= # ><i class="icons fa fa-github" aria-hidden="true"></i></a> 
+          </p> 
+      </div>
+
+      <div class="col-xs-4" class="fourth">
+        <h3><a href="https://codepen.io/Reeechad/full/MqJyPX/" class="noBlue">To-Do List</a></h3>
+        <hr>
+        <a href="https://codepen.io/Reeechad/full/MqJyPX/"><img src="https://i.gyazo.com/bfa634e01c09c31f3162bd04179cc1b4.jpg" alt="To-Do List App Image" id="imgsize" class="img-responsive projects"></a>
+        <hr>
+          <p class="projectDetails">
+            An app that keeps a list of things the user inputs to keep track. Uses HTML, CSS, Javascript, and jQuery. <a href= # ><i class="icons fa fa-github" aria-hidden="true"></i></a> 
+          </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-2" class="fourth">
+        <h3><a href="https://codepen.io/Reeechad/full/zJNBZg/" class="noBlue">Score Keeper</a></h3>
+        <hr>
+        <a href="https://codepen.io/Reeechad/full/zJNBZg/"><img src="https://codepen.io/dumel256/pen/oWeEQG/image/large.png" alt="Score Keeper" id="imgsize" class="img-responsive projects"></a>
+        <hr>
+          <p class="projectDetails">
+            An app that keeps track of the score of two players. The winning score can also be changed. This app was made to have a better understanding of Javascript. Uses HTML, CSS, and Javascript.
+          </p>
+      </div>
+
+      <div class="col-xs-4 " class="fourth">
+        <h3><a href="apps.html" class="noBlue">Landing Page</a></h3>
+        <hr>
+        <a href="https://codepen.io/Reeechad/full/pORqZj/"><img src="https://images.unsplash.com/photo-1524434993990-39cae2ff94e4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f5fd4e14c85f5709f31338d4cd17db6&auto=format&fit=crop&w=1400&q=80" alt="Landing Page" id="imgsize" class="img-responsive projects"></a>
+        <hr>
+          <p class="projectDetails">
+            When I first started out self-teaching HTML & CSS, I decided to make a static website which became a Landing Page. Utilized HTML, CSS, and Bootstrap.
+          </p>
+      </div>
+    </div>    
+  </div>
+
+  <!-- Footer -->
+  <div class="container" id="contact">
+    <h2>Resume</h2>
+    <hr>
+    <div class="row">
+      <div class="col-xs-12">
+          <ul class="list-inline">
+            <li>
+              <a href="file:///C:/Users/Reeechad/Downloads/Richard's%20Resume%20(4).pdf" download><i class="icons fa fa-file-pdf-o fa-2x" aria-hidden="true"></i><p class="sub">Resume PDF</p></a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Find Me Online</h2>
+        <hr>
+        <ul class="list-inline">
+          <li>
+            <a href="https://github.com/reeechad"><p class="sub">Github</p><i class="icons fa fa-github fa-3x" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/richard-lee-3950a3b7/"><p class="sub">Linkedin</p><i class="icons fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+          </li>
+          <hr>
+          <li>
+            <p class="sub">Email</p>
+            <p class="sub">REEECHAD@GMAIL.COM</p>
+          </li>
+        </ul>
+      <hr>
+      <h2>Richard Lee | Riverside, CA | 2018</h2>
+      <hr>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
